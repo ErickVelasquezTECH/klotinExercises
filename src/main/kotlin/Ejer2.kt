@@ -4,7 +4,7 @@ package org.example
 // y el parámetro recibido. Este método no devolverá nada
 
 fun texto(num: Int){
-    println("El resultado es")
+    println("El resultado es $num")
 }
 
 fun main() {
