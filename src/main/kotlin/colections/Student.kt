@@ -7,5 +7,4 @@ data class Student(
     val zipCode: Int
 )
 
-fun filterByZipCode(students: List<Student>, zipCode: Int): List<Student> =
-    students.filter { student -> student.zipCode == zipCode }
+
